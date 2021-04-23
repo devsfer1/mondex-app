@@ -1,11 +1,15 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.textStyle}>Bem vindo a Mondéx</Text>
-    </View>
+    <NavigationContainer>
+      <View style={styles.container}>
+        <Text style={styles.textStyle}>Bem vindo a Mondéx</Text>
+      </View>
+    </NavigationContainer>
   );
 };
 
