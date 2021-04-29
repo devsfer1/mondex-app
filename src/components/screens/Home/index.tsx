@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container, TextHome} from './styles';
+import {Container} from './styles';
+import {Image} from 'react-native';
 
 const HomeScreen = () => {
   return (
     <Container>
-      <TextHome>Bem vindo a Mondéx</TextHome>
+      <Image source={require('../../../assets/images/logo.png')} width="100" />
     </Container>
   );
 };

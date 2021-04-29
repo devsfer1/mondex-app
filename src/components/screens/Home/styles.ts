@@ -1,11 +1,9 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  background-color: #DF3A40;
+  background-color: #ffffff;
   color: #ffffff;
+  padding: ${10}px ${5}px;
 `;
 
 export const TextHome = styled.Text`
